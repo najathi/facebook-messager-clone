@@ -1,26 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from "react";
+import { FormControl, InputLabel, Input } from "@material-ui/core";
+
+import "./App.css";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <h2>Facebook Messenger Colon</h2>
+
+            <FormControl>
+                <InputLabel htmlFor="my-input">Email address</InputLabel>
+                <Input id="my-input" aria-describedby="my-helper-text" />
+            </FormControl>
+        </div>
+    );
 }
 
 export default App;
