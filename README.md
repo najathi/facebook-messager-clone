@@ -2,8 +2,8 @@
 
 ### How to run the project
 
-``1. Create firebase.js file in /src folder
-``2. put the snippets
+#### 1. Create firebase.js file in /src folder
+#### 2. put the snippets
 
 ```
 import firebase from "firebase";
@@ -25,7 +25,7 @@ const db = firebaseApp.firestore();
 export default db;
 ```
 
-``3. setup firebase configuration
+#### 3. setup firebase configuration
 
 ### Available Scripts
 
