@@ -4,6 +4,11 @@
     width: fit-content;
 }
 
+.message__messageContent{
+    display: flex;
+    flex-direction: column;
+}
+
 .message__user{
     margin-left: auto;
     color: white;
@@ -16,4 +21,24 @@ background-color: #0b81ff !important;
 
 .message__guestCard{
 background-color: #e9e9eb !important;
+}
+
+.message__username{
+    text-align: left !important;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 8px;
+    font-size: 1rem;
+    color: #aaa;
+}
+
+.MuiCardContent-root{
+    padding: 10px !important;
+    border-radius: 50px !important;
+    width: fit-content;
+}
+
+.MuiTypography-h5{
+    font-size: 1rem !important;
+    font-weight: bold !important;
 }
