@@ -6,12 +6,14 @@
 
 .app__form{
   position: fixed;
-  bottom: 20px;
+  bottom: 5px;
   z-index: 1;
   background-color: rgba(11, 129, 255, 0.5);
-  width: 90%;
-  margin-right: 100px !important;
+  width: 100% !important;
+  margin: 20px auto;
   padding: 20px;
+  box-sizing: border-box;
+
 }
 
 .app__formControl{
@@ -27,4 +29,16 @@
 
 .app__button{
   flex:0;
+}
+
+@media only screen and (max-width: 600px) {
+  .app__form{
+    width: 80%;
+  } 
+}
+
+@media only screen and (min-width: 600px) {
+  .app__form{
+    width:90%;
+  } 
 }

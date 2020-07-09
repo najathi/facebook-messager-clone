@@ -34,11 +34,22 @@ background-color: #e9e9eb !important;
 
 .MuiCardContent-root{
     padding: 10px !important;
-    border-radius: 50px !important;
     width: fit-content;
 }
 
 .MuiTypography-h5{
     font-size: 1rem !important;
     font-weight: bold !important;
+}
+
+@media only screen and (min-width: 992px) {
+    .MuiCardContent-root{
+        padding: 15px !important;
+        width: fit-content;
+    }
+
+    .MuiTypography-h5{
+        font-size: 1.3rem !important;
+        font-weight: bold !important;
+    }
 }
